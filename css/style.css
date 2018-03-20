@@ -1,0 +1,197 @@
+
+/* ==============
+# General 
+==============*/
+
+body {
+    font-size: 14px;
+    font-family: 'Open Sans', 'arial', sans-serif;
+    padding-top: 184px;
+}
+
+.transition {
+    -webkit-transition: all 0.5s ease-in-out;
+       -moz-transition: all 0.5s ease-in-out;
+         -o-transition: all 0.5s ease-in-out;
+            transition: all 0.5s ease-in-out;    
+}
+
+h1 {
+    font-size: 40px;
+    color: #283c46;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 33px;
+    font-weight: 600;
+    color: #7a9cad;
+    margin-bottom: 30px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+
+/* ==============
+# Header 
+==============*/
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 30;
+    background: #fff;    
+    z-index: 100;
+    background-color: #fff;
+}
+
+.header-wrap-border {
+    padding-top: 33px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #7a9cad;
+}
+
+.logo {
+    margin-top: 15px;
+}
+
+
+/* Sticky header */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #f9f9f9;
+}
+
+.sticky .header-wrap-border {
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+
+.sticky h1 {
+    font-size: 24px;
+}
+
+.sticky h4 {
+    font-size: 13px;
+}
+
+.sticky .logo {
+    max-width: 50px;
+}
+
+.fh5co-animated {
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+
+/* ==============
+# Slider 
+==============*/
+
+#slider-wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* ==============
+# Portfolio 
+==============*/
+
+.portfolio {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+article {
+    margin-bottom: 30px;
+}
+
+.animate-rotate {
+    -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+}
+
+.animate-rotate:hover {
+    -webkit-transform: scale( 1.07);
+       -moz-transform: scale( 1.07);
+         -o-transform: scale( 1.07);
+            transform: scale( 1.07);
+}
+
+
+/* ==============
+# Footer 
+==============*/
+
+footer {
+    background-color: #5bc0de;
+    color: #fff;
+    padding: 10px 30px;
+}
+
+footer > p {
+    margin-bottom: 0;
+}
+
+
+
+/* ==========================================
+# Respsive Style
+========================================== */
+
+@media screen and (max-width: 768px) {
+
+    body {
+        padding-top: 225px;
+    }
+
+    .header-wrap-border > div > div {
+        text-align: center;
+    }
+
+    .header-wrap-border {
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h4 {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .img-responsive {
+        display: inline-block;
+    }
+
+}
